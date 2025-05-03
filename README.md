@@ -1,3 +1,5 @@
+<img src="images/logo.png" alt="Logo" width="1000"/>
+
 ## 🌍 Multilingual README Versions
 
 - 🇫🇷 [Français](./README.fr.md)
