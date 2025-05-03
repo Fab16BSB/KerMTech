@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href='../style.css' rel='stylesheet' type='text/css'>
+		<meta charset='UTF-8'/> 
+		<title>Liste d'articles</title>
+		<script>
+		function article2() {
+			document.getElementById("accueil").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("ad").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("pe").style.borderBottom = '10px #37a3a4 solid';
+			document.getElementById("nb").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("contact").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("apropos").style.borderBottom = '10px #027a7b solid';
+		}
+		</script>
+	</head>
+
+	<body onLoad="article2();">
+		<header>
+			<img alt='logo' src='../images/logo.png' id='logo'/>
+		</header>
+
+		<nav>
+					 <a id="accueil" href='../index.html'> Accueil </a> 
+					 <a id="ad" href='aide-a-la-decision_liste.html'>Aide à la décision</a> 
+					 <a id="pe" href='protheses-electroniques_liste.html'>Prothèses du futur</a> 
+					 <a id="nb" href='nanomedecine_liste.html'>Nanomédecine</a> 
+					 <a id="contact" href='contact.html'>Contact</a> 
+					 <a id="apropos" href='apropos.html'>A propos</a> 	
+		</nav>
+
+		<section>
+			<article id='page'>
+				<img title='http://technologie-innovation.fr/reportage-protheses-du-futur-demain-tous-cyborgs' alt='baniere_pe' id='banniere_theme' src='../images/banniere/protheses-electroniques.png' />
+				<h2>Prothèses du futur</h2>
+
+				<p>Dans le domaine des nouvelles technologies appliquées à la médecine on retrouve les prothèses qui ne font qu'évoluer au fil du temps. Des prothèses en plastique en passant par les mecaniques de plus en plus perfectionnées. Mais a quoi ressembleront les prothèses dans le futur ? Vous pensez sûrement à l'homme bionique. Qui sait, c'est peut-être pour bientôt... Si vous voulez en savoir plus à propos des prothèses de demain je vous invite a consulter les articles ci-dessous.</p>
+
+				<a class='element_liste_article' href='introduction-protheses-electroniques.html'><h3> Introduction aux prothèses électroniques</h3></a>
+				<a class='element_liste_article' href='introduction-protheses-3D.html'><h3> Introduction aux prothèses 3D</h3></a>
+		
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Ker(M)tech &copy; Tout droit réservés, 2014-2015</p>
+		</footer>	
+	</body>
+</html>
+

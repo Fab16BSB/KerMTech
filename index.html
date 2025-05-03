@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<meta charset='UTF-8'/> 
+		<title>Accueil</title>
+		<script>
+		function Accueil() {
+			document.getElementById("accueil").style.borderBottom = '10px #37a3a4 solid';
+			document.getElementById("ad").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("article2").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("article3").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("contact").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("apropos").style.borderBottom = '10px #027a7b solid';
+		}
+	</script> 
+	</head>
+
+	<body onLoad="Accueil();">
+		<header>
+			<img alt='logo' src='images/logo.png' id='logo'/>
+		</header> 
+
+		<nav>
+					 <a id="accueil" href='pages/index.html'> Accueil </a> 
+					 <a id="ad" href='pages/aide-a-la-decision_liste.html'>Aide à la décision</a> 
+					 <a id="pe" href='pages/protheses-electroniques_liste.html'>Prothèses du futur</a> 
+					 <a id="nb" href='pages/nanomedecine_liste.html'>Nanomédecine</a> 
+					 <a id="contact" href='pages/contact.html'>Contact</a> 
+					 <a id="apropos" href='pages/apropos.html'>A propos</a> 	
+		</nav>
+
+		<section>
+			<article>
+					<div id='introduction'>
+						<h3>A propos</h3>
+						<p>Le sujet traité est la technologie au service de la médecine. La médecine est un domaine touchant directement l'être humain et les avancées technologiques n'ont fait que croître ses performances au cours des dernières années.</p>
+
+						<p>Ce site web est destiné aux personnes voulant étendre leur connaissances des différents domaines d'application des nouvelles technologies et amène le lecteur vers une exploration des technologies futures.</p>
+					</div>
+
+				<div id='ensemble'>
+
+					<div class='selection_articles'> 
+						<img alt='theme_ad' src='images/theme_ad.png' />
+						<h3>Aide à la décision</h3>
+						<h4>> Historique des systèmes experts</h4>
+						<p>Le principal but des systèmes experts est de reproduire l'expertise (raisonnement et connaissances) des spécialistes dans un domaine précis afin de les libérer de certaines tâches et leur donner la possibilité et la liberté de réfléchir des problèmes plus complexes...<a href='pages/historique-systemes-experts.html'>Lire la suite</a></p> 
+					</div>
+
+					<div class='selection_articles'> 
+						<img alt='theme_pe' src='images/theme_pe.png' />
+						<h3>Prothèses du futur</h3>
+						<h4>> Prothèses électroniques</h4>
+						<p>La médecine à toujours cherché à remplacer une partie défaillante de notre corps par une autre ou encore à reconstruire une partie perdue. Dans cette sous-partie nous parleront des nouvelles prothèses mise sur le marché ces dernières années. Une prothèse est un dispositif artificiel destiné à remplacer un membre, un organe ou une articulation...<a href='pages/introduction-protheses-electroniques.html'>Lire la suite</a></p>
+					</div>
+
+					<div class='selection_articles'> 
+						<img alt='theme_nb' src='images/theme_nb.png' />
+						<h3>Nanomédecine</h3>
+						<h4>> Histoire de la nanomédecine</h4>
+						<p>Le concept de nanotechnologie n'est pas récent comparé à ce que l'on peut penser, néanmoins les réels avancé et résultat dans ce domaine, eux, sont récent. En effet le concept de nanotechnologie a était pensé par Richard Feynman en 1959. Mais ce n'est qu'après ça mort que la nanotechnologie a était étudié, dans les années 1980, et que en 1990 que les scientifique ont réellement commencé à s'y intéressé.<a href='pages/histoire-nanomedecine.html'>Lire la suite</a></p>
+					</div>
+				</div>
+
+			</article>
+		</section>
+
+		<footer>
+			<p>Ker(M)tech &copy; Tout droit réservés, 2014-2015</p>
+		</footer>	
+	</body>
+</html>
+

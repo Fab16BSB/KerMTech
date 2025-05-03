@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href='../style.css' rel='stylesheet' type='text/css'>
+		<meta charset='UTF-8'/> 
+		<title>Liste d'articles</title>
+		<script>
+		function article1() {
+			document.getElementById("accueil").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("ad").style.borderBottom = '10px #37a3a4 solid';
+			document.getElementById("pe").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("nb").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("contact").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("apropos").style.borderBottom = '10px #027a7b solid';
+		}
+		</script>
+	</head>
+
+	<body onLoad="article1();">
+		<header>
+			<img alt='logo' src='../images/logo.png' id='logo'/>
+		</header>
+
+		<nav>
+					 <a id="accueil" href='../index.html'> Accueil </a> 
+					 <a id="ad" href='aide-a-la-decision_liste.html'>Aide à la décision</a> 
+					 <a id="pe" href='protheses-electroniques_liste.html'>Prothèses du futur</a> 
+					 <a id="nb" href='nanomedecine_liste.html'>Nanomédecine</a> 
+					 <a id="contact" href='contact.html'>Contact</a> 
+					 <a id="apropos" href='apropos.html'>A propos</a> 	
+		</nav>
+
+		<section>
+			<article id='page'>
+				<img title='source: http://www.humanite.fr/une-intelligence-artificielle-dirige-un-fonds-de-pension-530156' alt='banniere_ad' id='banniere_theme' src='../images/banniere/aide-a-la-decision.png' />
+				<h2>Aide à la décision</h2>
+
+				<p>L'aide à la décision rassemble les techniques et outils permettant de déterminer la meilleure prise de décision possible afin de se substituer aux choix de l'être humain. Il est utilisé dans des domaines comme la finance, l'informatique ou même la politique où la prise de décision automatique est souvent plus efficace que celle de l'Homme.</p>
+
+				<a class='element_liste_article' href='historique-systemes-experts.html'><h3> Historique des systèmes experts</h3></a>
+				<a class='element_liste_article' href='fonctionnent-systemes-experts.html'><h3> Introduction au fonctionnement des systèmes experts</h3></a>
+				<a class='element_liste_article' href='impact-sur-le-domaine-de-la-medecine.html'><h3> Impacts sur le domaine de la médecine</h3></a>
+		
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Ker(M)tech &copy; Tout droit réservés, 2014-2015</p>
+		</footer>	
+	</body>
+</html>
+

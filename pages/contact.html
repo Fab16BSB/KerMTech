@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='../style.css' rel='stylesheet' type='text/css'>
+		<meta charset='UTF-8'/>
+		<title>Contact</title>
+		<script>
+			function contact() {
+				document.getElementById("accueil").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("ad").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("pe").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("nb").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("contact").style.borderBottom = '10px #37a3a4 solid';
+				document.getElementById("apropos").style.borderBottom = '10px #027a7b solid';
+			}
+		</script>
+	</head>
+
+	<body onLoad="contact();">
+		<header>
+			<img alt='logo' src='../images/logo.png' id='logo'/>
+		</header> 
+
+
+		<nav>
+					 <a id="accueil" href='../index.html'> Accueil </a> 
+					 <a id="ad" href='aide-a-la-decision_liste.html'>Aide à la décision</a> 
+					 <a id="pe" href='protheses-electroniques_liste.html'>Prothèses du futur</a> 
+					 <a id="nb" href='nanomedecine_liste.html'>Nanomédecine</a> 
+					 <a id="contact" href='contact.html'>Contact</a> 
+					 <a id="apropos" href='apropos.html'>A propos</a> 	
+		</nav>
+
+		<section>
+			<div id="membres">
+				<h2>Informations membres</h2>
+
+				<div class="presentation">
+					<h3>Kostia CHARDONNET</h3>
+					<img alt='avatar' class='avatar' src="../images/avatars/avatar_default.png"/>
+					<div class='texte_presentation'>Rédacteur de la section "Nanomédecine". Vérification W3C.<img alt='mail' src='../images/mail/kostia.png' /></div>
+				</div>
+				<div class="presentation">
+					<h3>Boris ENG</h3>
+					<img alt='avatar' class='avatar' src="../images/avatars/avatar_default.png"/>
+					<div class='texte_presentation'>Rédacteur de la section "Aide à la décision". Responsable du design et de l'erogonmie.<img alt='mail' src='../images/mail/boris.png' /></div>
+				</div>
+				<div class="presentation">
+					<h3>Fabien POIRIER</h3>
+					<img alt='avatar' class='avatar' src="../images/avatars/avatar_default.png"/>
+					<div class='texte_presentation'>Rédacteur de la section "Prothèses électroniques" et responsable du Javascript<img alt='mail' src='../images/mail/fabien.png' /></div>
+				</div>
+			</div>
+
+			<div id ="contact_zone">
+				<h2>Formulaire de contact</h2>
+
+				<form>
+					<label>Pseudo</label><br />
+					<input size='60' type="text"/><br />
+
+					<label>E-mail</label><br />
+					<input size='60' type="email"/><br />
+
+					<label>Message</label><br />
+					<textarea cols='62' rows='20'></textarea><br />
+
+					<label>Êtes-vous un humain ? (Répondez par 0 ou 1)<br />(A ∨ B) ∧ (¬A ∨ C) ∧ (¬B ∨ A) ∧ (¬B ∨ C) ∧ (¬A ∨ ¬C)</label><br />
+					<label>A =</label>
+					<input type="text"/><br />
+
+					<label>B =</label>
+					<input type="text"/><br />
+
+					<label>C =</label>
+					<input type="text"/><br />
+
+					<input type="submit" value="Envoyer"/><br />
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<p>Ker(M)tech &copy; Tout droit réservés, 2014-2015</p>
+		</footer>	
+	</body>
+</html>

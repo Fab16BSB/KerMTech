@@ -1,0 +1,384 @@
+/* __________________________________________________________
+           TECHNOLOGIE AU SERVICE DE LA MEDECINE
+
+Eng Boris, Chardonnet Kostia, Poirier Fabien, Tran Nicolas
+_____________________________________________________________*/
+
+body
+{
+	font-family: 'OpenSans', sans-serif;
+	margin: 0;
+	background-color: #eef4f3;
+}
+
+@font-face 
+{ 	
+	font-family: 'OpenSans'; 	
+	src: url('font/OpenSans-Regular.ttf'); 
+}
+
+@font-face 
+{ 	
+	font-family: 'OpenSans-Bold'; 	
+	src: url('font/OpenSans-Bold.ttf'); 
+}
+
+h1
+{
+
+}
+
+/*_________Header_________*/
+
+header
+{
+	padding: 10px;
+	background-color: #015152;
+}
+
+header #logo
+{
+	width: 340px;
+}
+
+/*_________Menu_________*/
+
+nav
+{
+	background-color: #015152;
+	padding-left:10%;
+	border-bottom: 10px #027a7b solid; 
+}
+
+
+
+nav a
+{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding-right: 10px;
+	border-bottom: 10px #027a7b solid; 
+	margin-bottom: -10px;
+	padding-left: 12px; 
+	padding-bottom: 12px;
+}
+
+nav a {
+	background-color: rgba(0,0,0,0.0);
+	transition: background-color 1.5s;
+}
+
+nav a:hover {
+     background-color: rgba(0,0,0,0.8);
+}
+
+#ad
+{
+	color: rgb(210,210,210);
+}
+
+#pe
+{
+	color: rgb(210,210,210);
+}
+
+#nb
+{
+	color: rgb(210,210,210);
+}
+
+/*_________Accueil_________*/
+
+#introduction
+{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: rgba(0,0,0,0.9);
+	font-size: 12px;
+	color: rgb(200,200,200);
+	padding: 10px;
+	position: relative;
+	bottom: 15px;
+}
+
+#introduction h3
+{
+	border-bottom: 1px rgb(200,200,200) solid;
+}
+
+.selection_articles
+{
+	display: inline-block;
+	width: 300px;
+	height: 400px;
+	margin-left: 15px;
+	background-color: rgba(0,0,0,0.9);
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+#ensemble {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.selection_articles img
+{
+	width: 300px;
+}
+
+.selection_articles p
+{
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+.selection_articles h4
+{
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+.selection_articles a
+{
+	display: block;
+	text-decoration: none;
+	color: orange;
+	transition: color 0.5s;
+}
+
+.selection_articles a:hover
+{
+	color: white;
+}
+
+.selection_articles h3
+{
+	font-family: 'OpenSans-Bold', sans-serif;
+	color: white;
+	padding-left: 20px;
+}
+
+/*_________Section_________*/
+
+section
+{
+	background-color: #eef4f3;
+	padding: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+/*_________Article_________*/
+
+#ensemble {
+	color: white;
+}
+
+span{
+	position: relative;
+	left: 120px;
+}
+
+article .illustration
+{
+	max-width: 500px;
+	border: 1px gray solid;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*_________Page par défaut_________ */
+
+#page
+{
+	padding-left: 50px;
+}
+
+#page p
+{
+	padding-right: 100px;
+}
+
+#page h2
+{
+	border-bottom: 1px black solid;
+	width: 80%;
+	margin-bottom: 40px;
+}
+
+/*_________Page themes_________ */
+
+#banniere_theme
+{
+	border: 1px gray solid;
+}
+
+.element_liste_article
+{
+	text-decoration: none;
+	color: #027a7b;
+	font-weight: bold;
+	transition: color 0.5s;
+}
+
+.element_liste_article:hover
+{
+	color: orange;
+}
+
+/*_________Article du site_________*/
+
+#page_article
+{
+	padding-left: 20px;
+	padding-right: 30px;
+	width: 800px;
+	display: inline-block;
+	border-right: 2px gray solid;
+}
+
+#selection_article_aside
+{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.bloc_selection
+{
+	margin-bottom: 20px;
+	border: 1px black solid;
+	width: 300px;
+	height: 250px;
+	background-color: rgba(0,0,0,0.9);
+	padding-bottom: 10px;
+}
+
+.bloc_selection h4
+{
+	position: relative;
+	bottom: 20px;
+	margin-left: 10px;
+	color: white;
+}
+
+.bloc_selection p
+{
+	position: relative;
+	bottom: 20px;
+	font-size: 12px;
+	margin-left: 10px;
+	color: white;
+	padding-right: 10px;
+}
+
+.bloc_selection a
+{
+	margin-left: 5px;
+	text-decoration: none;
+	color: orange;
+	transition: color 0.5s;
+}
+
+.bloc_selection a:hover
+{
+	color: white;
+}
+
+#signature
+{
+	color: gray;
+	font-style: italic;
+	text-align: right;
+}
+
+.retour_liste
+{
+	text-decoration: none;
+	color: #027a7b;
+	font-weight: bold;
+	transition: color 0.5s;
+}
+
+.retour_liste:hover
+{
+	color: orange;
+}
+
+/*_________Page membre_________*/
+
+#membres
+{
+	display: inline-block;
+	width: 600px;
+}
+
+#membres h3
+{
+	color: white;
+	border-bottom: 1px white solid;
+}
+
+#membres .avatar
+{
+	display: inline-block;
+	width: 100px;
+	border: 1px black solid;
+}
+
+.presentation
+{
+	background-color: #015152;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	margin-bottom: 40px;
+}
+
+#contact_zone
+{
+	margin-left: 50px;
+	
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 50px;
+	border-left: 1px gray solid;
+	height: 800px;
+}
+
+#contact_zone input
+{
+	margin-bottom: 10px;
+}
+
+.texte_presentation
+{
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px;
+	width: 450px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*_________Footer_________*/
+
+footer
+{
+	background-color: #015152;
+	position: relative;
+	top: 33px;
+}
+
+footer p
+{
+	text-align: center;
+	padding: 10px;
+	color: white;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href='../style.css' rel='stylesheet' type='text/css'>
+		<meta charset='UTF-8'/> 
+		<title>A propos</title>
+
+		<script>
+		function aPropos() {
+			document.getElementById("accueil").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("ad").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("pe").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("nb").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("contact").style.borderBottom = '10px #027a7b solid';
+			document.getElementById("apropos").style.borderBottom = '10px #37a3a4 solid';
+		}
+		</script>
+	</head>
+
+	<body onLoad="aPropos();">
+		<header>
+			<img src='../images/logo.png' id='logo' alt='logo' />
+		</header>
+
+		<nav>
+					 <a id="accueil" href='../index.html'> Accueil </a> 
+					 <a id="ad" href='aide-a-la-decision_liste.html'>Aide à la décision</a> 
+					 <a id="pe" href='protheses-electroniques_liste.html'>Prothèses du futur</a> 
+					 <a id="nb" href='nanomedecine_liste.html'>Nanomédecine</a> 
+					 <a id="contact" href='contact.html'>Contact</a> 
+					 <a id="apropos" href='apropos.html'>A propos</a> 	
+		</nav>
+
+		<section>
+			<article id='page'>
+				<h2>A propos</h2>
+
+				<h3>Réalisation du site</h3>
+				<p>Langages utilisés : HTML5, CSS3, Javascript</p>
+				<img alt='validationCSS' src='../images/vcss.gif' />
+
+				<h3>Police d'écriture utilisée</h3>
+				<p>Open-Sans de Steve Matteson (Apache License, version 2.0)</p>
+
+				<h3>Icônes utilisées sur le site</h3>
+				<div>Icônes réalisées par <a href="http://www.freepik.com" title="Freepik">Freepik</a> de <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> licencié sous <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Ker(M)tech &copy; Tout droit réservés, 2014-2015</p>
+		</footer>	
+	</body>
+</html>
+

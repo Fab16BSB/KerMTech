@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link href='../style.css' rel='stylesheet' type='text/css'>
+		<meta charset='UTF-8'/> 
+		<title>Liste d'articles</title>
+		<script>
+			function article3() {
+				document.getElementById("accueil").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("ad").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("pe").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("nb").style.borderBottom = '10px #37a3a4 solid';
+				document.getElementById("contact").style.borderBottom = '10px #027a7b solid';
+				document.getElementById("apropos").style.borderBottom = '10px #027a7b solid';
+			}
+		</script>
+	</head>
+
+	<body onLoad="article3();">
+		<header>
+			<img alt='logo' src='../images/logo.png' id='logo'/>
+		</header>
+
+		<nav>
+					 <a id="accueil" href='../index.html'> Accueil </a> 
+					 <a id="ad" href='aide-a-la-decision_liste.html'>Aide à la décision</a> 
+					 <a id="pe" href='protheses-electroniques_liste.html'>Prothèses du futur</a> 
+					 <a id="nb" href='nanomedecine_liste.html'>Nanomédecine</a> 
+					 <a id="contact" href='contact.html'>Contact</a> 
+					 <a id="apropos" href='apropos.html'>A propos</a> 	
+		</nav>
+
+		<section>
+			<article id='page'>
+				<img title='http://www.nanobiotix.eu/nanotechnologie-et-nanomedecine/' alt='banniere_ad' id='banniere_theme' src='../images/banniere/nanomedecine.png' />
+				<h2>Nanomédecine</h2>
+
+				<p>Avec le progrès technique de ces dernières années, et les besoins toujours plus nombreux du domaines de la médecine, de nouveaux traitements ont vue le jour. Ces dernières années beaucoup de recherche on eu lieu dans la nanotechnologie. La science de modifier les molécules dans l'organisme.</p>
+
+				<a class='element_liste_article' href='histoire-nanomedecine.html'><h3> Histoire de la nanomédecine</h3></a>
+				<a class='element_liste_article' href='nanomedical.html'><h3> Le domaine nanomédical</h3></a>
+		
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Ker(M)tech &copy; Tout droit réservés, 2014-2015</p>
+		</footer>	
+	</body>
+</html>
+
