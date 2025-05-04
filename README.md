@@ -2,7 +2,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
-![Contributors](https://img.shields.io/badge/contributor-1-orange)
+![Contributors](https://img.shields.io/badge/contributor-3-orange)
 ![Stars](https://img.shields.io/github/stars/Fab16BSB/KerMTech?color=orange)
 ![Fork](https://img.shields.io/github/forks/Fab16BSB/KerMTech?color=orange)
 ![Watchers](https://img.shields.io/github/watchers/Fab16BSB/KerMTech?color=orange)
